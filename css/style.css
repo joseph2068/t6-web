@@ -154,7 +154,8 @@ img {
   align-items: center; }
   @media (max-width: 768px) {
     .header {
-      display: block; } }
+      display: block;
+      margin-bottom: 0; } }
   .header .head-logo {
     margin: 20px 0 20px 10px;
     line-height: 1.5; }
@@ -253,7 +254,7 @@ body {
       float: none;
       width: 90%;
       margin-left: 0;
-      margin: 0 auto; } }
+      margin: 20px auto; } }
   @media (max-width: 768px) {
     .bar-bg .search-submit {
       right: 30px; } }
@@ -370,6 +371,9 @@ body {
 .footer {
   margin-top: 40px;
   background: #fafafa; }
+  @media (max-width: 768px) {
+    .footer {
+      margin-top: 0; } }
 
 .contact {
   margin-bottom: 20px; }
