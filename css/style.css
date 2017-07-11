@@ -260,6 +260,12 @@ body {
 
 .slideshow {
   height: 456px; }
+  @media (max-width: 768px) {
+    .slideshow {
+      max-height: 350px; } }
+  @media (max-width: 480px) {
+    .slideshow {
+      max-height: 250px; } }
 
 .card-item {
   height: 320px;
